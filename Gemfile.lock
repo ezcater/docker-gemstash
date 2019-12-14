@@ -40,6 +40,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
     net-telnet (0.1.1)
+    pg (1.1.4)
     puma (3.12.0)
     rack (2.0.6)
     rack-protection (2.0.4)
@@ -93,7 +94,8 @@ PLATFORMS
 DEPENDENCIES
   docker-api
   gemstash
+  pg
   serverspec
 
 BUNDLED WITH
-   1.15.1
+   1.17.3
