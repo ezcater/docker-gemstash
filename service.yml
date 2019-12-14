@@ -20,8 +20,8 @@ production:
 deployables:
   web:
     type: web
-    port: 9292
-    command: gemstash start --config-file=/etc/gemstash/config.yml --no-daemonize
+    port: 3000
+    command: /entrypoint.sh gemstash start --config-file=/etc/gemstash/config.yml --no-daemonize
     health_check_path: /health
     staging:
       host: gemstash.staging-ezcater.net

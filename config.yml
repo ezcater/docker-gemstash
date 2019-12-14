@@ -3,3 +3,4 @@
 :cache_type: memory
 :db_adapter: postgres
 :log_file: :stdout
+:bind: "tcp://0.0.0.0:3000"
