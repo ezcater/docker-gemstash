@@ -4,3 +4,6 @@
 :db_adapter: postgres
 :log_file: :stdout
 :bind: "tcp://0.0.0.0:3000"
+:fetch_timeout: 30
+:cache_max_size: 2000
+:cache_expiration: 1800
