@@ -2,6 +2,7 @@
 # https://skyline-docs.staging-ezcater.net/configuration/service_yml
 
 name: gemstash
+owner: tjwp
 configuration_opt_in_environments: true
 skip_production_deploy: true
 pipeline:
