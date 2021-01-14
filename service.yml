@@ -3,6 +3,7 @@
 
 name: gemstash
 owner: tjwp
+class: prototype
 configuration_opt_in_environments: true
 skip_production_deploy: true
 pipeline:
